@@ -1,29 +1,26 @@
-function forward()
+function Forward()
     block,data = turtle.inspect()
     if (block == true) then
         turtle.dig()
-        turtle.suck()
     move = turtle.forward()
 end
-function turnright()
+function Turnright()
     turtle.turnRight()
     block,data = turtle.inspect()
     if (block == true) then
         turtle.dig()
-        turtle.suck()
     move = turtle.forward()
     turtle.turnRight()
 end
-function turnleft()
+function Turnleft()
     turtle.turnLeft()
     block,data = turtle.inspect()
     if (block == true) then
         turtle.dig()
-        turtle.suck()
     move = turtle.forward()
     turtle.turnLeft()
 end
-function run()
+function Run()
     amount2 = 0
     while amount2 < 10 do
         amount1 = 0
@@ -38,4 +35,5 @@ function run()
         turnleft()
     end
 end
-run()
+
+Run()

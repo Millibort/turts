@@ -29,13 +29,16 @@ function Run()
         amount1 = 0
         while amount1 < 10 do
             Forward()
+            amount1 = amount1 + 1
         end
         Turnright()
         amount1 = 0
         while amount1 < 10 do
             Forward()
+            amount1 = amount1 + 1
         end
         Turnleft()
+        amount2 = amount2 + 1
     end
 end
 

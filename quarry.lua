@@ -25,7 +25,7 @@ function Turnleft()
 end
 function Run()
     amount2 = 0
-    while amount2 < 10 do
+    while amount2 < 5 do
         amount1 = 0
         while amount1 < 10 do
             Forward()
@@ -42,4 +42,5 @@ function Run()
     end
 end
 
-Run()
+Turnright()
+Turnleft()

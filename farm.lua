@@ -12,7 +12,7 @@ function Forward()
 end
 function Turnright()
     turtle.turnRight()
-    block,data = turtle.inspect()
+    block,data = turtle.inspectDown()
     if (block == true) then
         if(data["state"]["age"] == 7)then
             turtle.digDown()
@@ -26,7 +26,7 @@ function Turnright()
 end
 function Turnleft()
     turtle.turnLeft()
-    block,data = turtle.inspect()
+    block,data = turtle.inspectDown()
     if (block == true) then
         if(data["state"]["age"] == 7)then
             turtle.digDown()

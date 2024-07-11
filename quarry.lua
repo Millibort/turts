@@ -25,11 +25,11 @@ function run()
     while amount2 < 10 do
         amount1 = 0
         while amount1 < 10 do
-            forward
+            forward()
         turnright()
         amount1 = 0
         while amount1 < 10 do
-            forward
+            forward()
         turnleft()
 
 run()

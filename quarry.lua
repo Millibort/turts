@@ -2,6 +2,7 @@ function Forward()
     block,data = turtle.inspect()
     if (block == true) then
         turtle.dig()
+    end
     move = turtle.forward()
 end
 function Turnright()
@@ -9,6 +10,7 @@ function Turnright()
     block,data = turtle.inspect()
     if (block == true) then
         turtle.dig()
+    end
     move = turtle.forward()
     turtle.turnRight()
 end
@@ -17,6 +19,7 @@ function Turnleft()
     block,data = turtle.inspect()
     if (block == true) then
         turtle.dig()
+    end
     move = turtle.forward()
     turtle.turnLeft()
 end

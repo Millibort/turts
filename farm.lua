@@ -79,7 +79,8 @@ function Run()
         turtle.select(i)
         turtle.drop()
     end
-
+    turtle.turnRight()
+    turtle.turnRight()
 end
 
 Run()

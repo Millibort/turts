@@ -28,12 +28,12 @@ function Run()
     while amount2 < 10 do
         amount1 = 0
         while amount1 < 10 do
-            forward()
+            Forward()
         end
         turnright()
         amount1 = 0
         while amount1 < 10 do
-            forward()
+            Forward()
         end
         turnleft()
     end

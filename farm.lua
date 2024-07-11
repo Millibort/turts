@@ -24,7 +24,7 @@ function Turnright()
     move = turtle.forward()
     turtle.turnRight()
 end
-function Turnright()
+function Turnleft()
     turtle.turnLeft()
     block,data = turtle.inspect()
     if (block == true) then

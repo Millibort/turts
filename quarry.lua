@@ -30,12 +30,12 @@ function Run()
         while amount1 < 10 do
             Forward()
         end
-        turnright()
+        Turnright()
         amount1 = 0
         while amount1 < 10 do
             Forward()
         end
-        turnleft()
+        Turnleft()
     end
 end
 

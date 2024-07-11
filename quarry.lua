@@ -24,23 +24,40 @@ function Turnleft()
     turtle.turnLeft()
 end
 function Run()
-    amount2 = 0
-    while amount2 < 5 do
-        amount1 = 0
-        while amount1 < 10 do
-            Forward()
-            amount1 = amount1 + 1
+    amount3 = 0
+    while amount3 < 10 do
+        amount2 = 0
+        while amount2 < 5 do
+            amount1 = 0
+            while amount1 < 10 do
+                Forward()
+                amount1 = amount1 + 1
+            end
+            Turnright()
+            amount1 = 0
+            while amount1 < 10 do
+                Forward()
+                amount1 = amount1 + 1
+          end
+           Turnleft()
+            amount2 = amount2 + 1
         end
-        Turnright()
-        amount1 = 0
-        while amount1 < 10 do
-            Forward()
-            amount1 = amount1 + 1
-        end
-        Turnleft()
-        amount2 = amount2 + 1
+        turtle.turnLeft()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.forward()
+        turtle.digDown()
+        turtle.turnRight()
+        turtle.down()
+        amount3 = amount3 + 1
     end
 end
 
-Turnright()
-Turnleft()
+Rnu()

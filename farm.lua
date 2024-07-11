@@ -24,7 +24,7 @@ function Turnright()
     move = turtle.forward()
     turtle.turnRight()
 end
-function Turnleft()
+function Turnright()
     turtle.turnLeft()
     block,data = turtle.inspect()
     if (block == true) then
@@ -78,9 +78,11 @@ function Run()
     while i < 16 do
         turtle.select(i)
         turtle.drop()
+        i = i+1
     end
     turtle.turnRight()
     turtle.turnRight()
+    turtle.select(1)
 end
 
 Run()

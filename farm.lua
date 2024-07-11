@@ -68,7 +68,6 @@ function Run()
         turtle.forward()
         turtle.forward()
         turtle.forward()
-        turtle.digDown()
         turtle.turnRight()
         amount3 = amount3 + 1
     end

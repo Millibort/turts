@@ -40,9 +40,9 @@ function Turnleft()
 end
 function Run()
     amount3 = 0
-    while amount3 < 10 do
+    while amount3 < 1 do
         amount2 = 0
-        while amount2 < 10 do
+        while amount2 < 5 do
             amount1 = 0
             while amount1 < 8 do
                 Forward()
@@ -72,6 +72,14 @@ function Run()
         turtle.turnRight()
         amount3 = amount3 + 1
     end
+    turtle.turnRight()
+    turtle.turnRight()
+    i = 2
+    while i < 16 do
+        turtle.select(i)
+        turtle.drop()
+    end
+
 end
 
 Run()
